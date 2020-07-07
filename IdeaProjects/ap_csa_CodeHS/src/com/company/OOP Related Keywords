@@ -1,0 +1,29 @@
+Public vs. Private:
+
+    - private field: accessed using getter or setter (COMMON)
+    - public field: can be accessed from outside class
+
+    - private method: can't be used outside class - "behind the scenes"
+    - public method: can be used outside class (COMMON)
+
+Static vs. Non-Static
+
+    - static field: applies to all instances
+        - changing it will change it everywhere
+    - non-static field: applies to one instance
+        - changing it will change it for one instance
+
+    - static method:
+        - can be used without creating an object
+        - can access static fields
+    - non-static method:
+        - can be used after creating an object
+        - can access static and non-static fields
+
+Abstraction:
+    one need not know about the inner workings of a
+    program in order to use it
+
+Encapsulation:
+    hiding the internal state of an object in order
+    to control how users interact with a system
